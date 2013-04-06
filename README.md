@@ -1,3 +1,5 @@
+Please refer to MATLAB IMPLOY for details operations of adding/deleting/moving anchor points
+
 1. 	unzip your downloaded folder
 2. 	cd whereYouUnZip
 3. 		>> addpath(genpath(pwd))
