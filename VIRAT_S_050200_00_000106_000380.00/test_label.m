@@ -77,7 +77,7 @@ end
 end 
 
 function type = promptBeginLabel
-prompt = {'Type: Car-1 People-2 Bike-3'};
+prompt = {'Type: Car-1 People-2 Plant-3'};
 dlg_title = 'Input label info';
 num_lines = 1;
 def = {'1'};

@@ -56,7 +56,7 @@ for i = length(frameAnt)+1 : n
     
     isContinue = promptIsContinue;
     if ~isContinue
-        save(['CurFrame' filenames{i}(1:5) 'ant.mat'], 'curFrame');
+        save(['CurFrame' filenames{i}(5:9) 'ant.mat'], 'curFrame');
     end
     
     while isContinue
@@ -68,7 +68,7 @@ for i = length(frameAnt)+1 : n
         curFrame{answer} = cat(1, curFrame{answer}, obj);
         [isContinue isSave]= promptIsContinue();
         if isSave            
-            save(['CurFrame' filenames{i}(1:5)  'ant.mat'], 'curFrame');
+            save(['CurFrame' filenames{i}(5:9)  'ant.mat'], 'curFrame');
         end
     end
     frameAnt = cat(1, frameAnt, {curFrame});
