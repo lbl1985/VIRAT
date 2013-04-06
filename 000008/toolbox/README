@@ -1,0 +1,13 @@
+Binlong Li's Toolbox, as a stand alone repo in git, should be excluded in 
+every project git repo. It will be push or pull sepratedly.
+
+- matlab 
+    all system widely supporting functions, such as, git, rmt, vcm
+- hankel
+    hankel related functions, such as, hankelConstruction, etc.
+- numeric
+    numeric / Array format related functions, such as, structField2Vector
+- video
+    video loading/saving etc operation related functions, such as, movie2var
+- visual
+    visualization realted functions, such as, varycolor
